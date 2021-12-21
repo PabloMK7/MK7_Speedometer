@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nw4c_layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.2.0" >
+  <head>
+    <create user="pablo" host="LAPTOP-493J2QDP" date="2021-12-15T13:11:11.5626194+01:00" source="" />
+    <title />
+    <comment />
+    <generator name="App" version="" />
+  </head>
+  <body>
+    <lyt>
+      <paneSet>
+        <pane kind="Picture" name="P_speed-00">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="22.25" y="4.5" z="0" />
+          <rotate x="0" y="0" z="90" />
+          <scale x="1" y="1" />
+          <size x="32" y="16" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="0" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="0" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="P_speed-00">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="race_num_0_r90" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen srcParam="Tex0" />
+              <textureStage texMap="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialCtr name="P_speed-00">
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="race_num_0_r90" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen srcParam="Tex0" />
+              <tevStage>
+                <rgb mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                </rgb>
+                <alpha mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                </alpha>
+              </tevStage>
+              <alphaCompare comp="Always" ref="0" />
+              <blendMode type="None" />
+            </materialCtr>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Null" name="R_speed">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="162.25" y="-93" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="1" y="1" />
+          <size x="30" y="40" />
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="P_speed-01">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="7.25" y="4.5" z="0" />
+          <rotate x="0" y="0" z="90" />
+          <scale x="1" y="1" />
+          <size x="32" y="16" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="0" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="0" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="P_speed-01">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="race_num_0_r90" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen srcParam="Tex0" />
+              <textureStage texMap="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialCtr name="P_speed-01">
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="race_num_0_r90" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen srcParam="Tex0" />
+              <tevStage>
+                <rgb mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                </rgb>
+                <alpha mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                </alpha>
+              </tevStage>
+              <alphaCompare comp="Always" ref="0" />
+              <blendMode type="None" />
+            </materialCtr>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="P_speed-02">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-7.75" y="4.5" z="0" />
+          <rotate x="0" y="0" z="90" />
+          <scale x="1" y="1" />
+          <size x="32" y="16" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="0" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="0" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="P_speed-02">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="race_num_0_r90" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen srcParam="Tex0" />
+              <textureStage texMap="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialCtr name="P_speed-02">
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="race_num_0_r90" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen srcParam="Tex0" />
+              <tevStage>
+                <rgb mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                </rgb>
+                <alpha mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                </alpha>
+              </tevStage>
+              <alphaCompare comp="Always" ref="0" />
+              <blendMode type="None" />
+            </materialCtr>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="Picture" name="P_speed-03">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="-22.75" y="4.5" z="0" />
+          <rotate x="0" y="0" z="90" />
+          <scale x="1" y="1" />
+          <size x="32" y="16" />
+          <picture>
+            <vtxColLT r="255" g="255" b="255" a="255" />
+            <vtxColRT r="255" g="255" b="0" a="255" />
+            <vtxColLB r="255" g="255" b="255" a="255" />
+            <vtxColRB r="255" g="255" b="0" a="255" />
+            <texCoord>
+              <texLT s="0" t="0" />
+              <texRT s="1" t="0" />
+              <texLB s="0" t="1" />
+              <texRB s="1" t="1" />
+            </texCoord>
+            <material name="P_speed-03">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="255" g="255" b="255" />
+              <texMap imageName="race_num_0_r90" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen srcParam="Tex0" />
+              <textureStage texMap="0" />
+              <texBlendRatio color="255" />
+            </material>
+            <materialCtr name="P_speed-03">
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <texMap imageName="race_num_0_r90" wrap_s="Clamp" wrap_t="Clamp" />
+              <texMatrix rotate="0">
+                <scale x="1" y="1" />
+                <translate x="0" y="0" />
+              </texMatrix>
+              <texCoordGen srcParam="Tex0" />
+              <tevStage>
+                <rgb mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                </rgb>
+                <alpha mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                </alpha>
+              </tevStage>
+              <alphaCompare comp="Always" ref="0" />
+              <blendMode type="None" />
+            </materialCtr>
+          </picture>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+        <pane kind="TextBox" name="T_unit">
+          <comment />
+          <basePositionType x="Center" y="Center" />
+          <translate x="14" y="-13.5" z="0" />
+          <rotate x="0" y="0" z="0" />
+          <scale x="0.65" y="0.65" />
+          <size x="45.5" y="26.5" />
+          <textBox font="dash_ntlg16b">
+            <fontSize x="22" y="26" />
+            <text>aaa
+</text>
+            <topColor r="255" g="255" b="0" a="255" />
+            <bottomColor r="255" g="255" b="255" a="255" />
+            <positionType x="Right" y="Top" />
+            <material name="T_unit">
+              <blackColor r="0" g="0" b="0" />
+              <whiteColor r="255" g="255" b="255" />
+            </material>
+            <materialCtr name="T_unit">
+              <tevColReg r="0" g="0" b="0" a="0" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevConstReg r="255" g="255" b="255" a="255" />
+              <tevStage>
+                <rgb mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                  <arg source="Constant" op="Rgb" />
+                </rgb>
+                <alpha mode="Replace" konst="K0" scale="V1">
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                  <arg source="Constant" op="Alpha" />
+                </alpha>
+              </tevStage>
+              <alphaCompare comp="Always" ref="0" />
+              <blendMode type="None" />
+            </materialCtr>
+          </textBox>
+          <userData>
+            <string name="__BasicUserDataString" />
+          </userData>
+        </pane>
+      </paneSet>
+      <paneHierarchy>
+        <paneTree name="RootPane">
+          <paneTree name="R_speed">
+            <paneTree name="P_speed-00" />
+            <paneTree name="P_speed-01" />
+            <paneTree name="P_speed-02" />
+            <paneTree name="P_speed-03" />
+            <paneTree name="T_unit" />
+          </paneTree>
+        </paneTree>
+      </paneHierarchy>
+      <groupSet>
+        <group name="RootGroup">
+          <group name="G_00">
+            <paneRef name="P_speed-00" />
+            <comment />
+          </group>
+          <group name="G_01">
+            <paneRef name="P_speed-01" />
+            <comment />
+          </group>
+          <group name="G_02">
+            <paneRef name="P_speed-02" />
+            <comment />
+          </group>
+          <group name="G_03">
+            <paneRef name="P_speed-03" />
+            <comment />
+          </group>
+          <comment />
+        </group>
+      </groupSet>
+      <screenSetting origin="Normal">
+        <layoutSize x="400" y="240" />
+        <backGround>
+          <color r="169" g="169" b="169" a="255" />
+        </backGround>
+        <grid thickLineInterval="40" thinDivisionNum="4" visible="true" moveMethod="None">
+          <color r="128" g="128" b="64" a="128" />
+        </grid>
+      </screenSetting>
+      <exportSetting>
+        <directory />
+        <fileName />
+        <makeOutputDirectory>false</makeOutputDirectory>
+        <fixInfinityCurve>false</fixInfinityCurve>
+        <bakeKeyMode>Tool</bakeKeyMode>
+        <convertTextControlCode>false</convertTextControlCode>
+        <useTagData>false</useTagData>
+        <keyControlMode>None</keyControlMode>
+        <outputBclyt>false</outputBclyt>
+        <outputBclpa>false</outputBclpa>
+        <outputBclvi>false</outputBclvi>
+        <outputBclvc>false</outputBclvc>
+        <outputBclmc>false</outputBclmc>
+        <outputBclts>false</outputBclts>
+        <outputBcltp>false</outputBcltp>
+      </exportSetting>
+      <textureFile imagePath="textures\race_num_0_r90.tga" format="ETC1A4" />
+      <textureFile imagePath="textures\race_num_1_r90.tga" format="ETC1A4" />
+      <textureFile imagePath="textures\race_num_2_r90.tga" format="ETC1A4" />
+      <textureFile imagePath="textures\race_num_3_r90.tga" format="ETC1A4" />
+      <textureFile imagePath="textures\race_num_4_r90.tga" format="ETC1A4" />
+      <textureFile imagePath="textures\race_num_5_r90.tga" format="ETC1A4" />
+      <textureFile imagePath="textures\race_num_6_r90.tga" format="ETC1A4" />
+      <textureFile imagePath="textures\race_num_7_r90.tga" format="ETC1A4" />
+      <textureFile imagePath="textures\race_num_8_r90.tga" format="ETC1A4" />
+      <textureFile imagePath="textures\race_num_9_r90.tga" format="ETC1A4" />
+      <fontFile path="textures\dash_ntlg16b.bcfnt" />
+    </lyt>
+  </body>
+</nw4c_layout>

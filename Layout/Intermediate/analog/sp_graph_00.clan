@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nw4c_layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.2.0" >
+  <head>
+    <create user="pablo" host="LAPTOP-493J2QDP" date="2021-12-15T13:11:11.5626194+01:00" source="" />
+    <title />
+    <comment />
+    <generator name="App" version="" />
+  </head>
+  <body>
+    <animTag name="speed_00" startFrame="0" endFrame="180" animLoop="OneTime" fileName="speed_00" outputVisibility="false" outputVertexColor="false" outputMaterialColor="false" outputTextureSRT="false" outputTexturePattern="false" outputIndTextureSRT="false">
+      <comment />
+      <group name="G_needle" />
+    </animTag>
+    <lan animType="PaneSRT" startFrame="0" endFrame="180" convertStartFrame="0" convertEndFrame="180">
+      <animContent name="N_rot">
+        <animPaneSRTTarget target="RotateZ">
+          <key frame="0" value="0" slope="-0.966666639" slopeType="Smooth" />
+          <key frame="180" value="-174" slope="-0.966666639" slopeType="Smooth" />
+        </animPaneSRTTarget>
+      </animContent>
+    </lan>
+  </body>
+</nw4c_layout>

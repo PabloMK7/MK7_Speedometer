@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nw4c_layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.2.0" >
+  <head>
+    <create user="pablo" host="LAPTOP-493J2QDP" date="2021-12-15T13:11:11.5626194+01:00" source="" />
+    <title />
+    <comment />
+    <generator name="App" version="" />
+  </head>
+  <body>
+    <animTag name="texture_pattern_00" startFrame="0" endFrame="9" animLoop="OneTime" fileName="texture_pattern_00">
+      <comment />
+      <group name="G_00" />
+      <group name="G_01" />
+      <group name="G_02" />
+      <group name="G_03" />
+    </animTag>
+    <lan animType="TexturePattern" startFrame="0" endFrame="100" convertStartFrame="0" convertEndFrame="100">
+      <animContent name="P_speed-00">
+        <animTexPatternTarget target="Image">
+          <refRes name="race_num_0_r90" />
+          <refRes name="race_num_1_r90" />
+          <refRes name="race_num_2_r90" />
+          <refRes name="race_num_3_r90" />
+          <refRes name="race_num_4_r90" />
+          <refRes name="race_num_5_r90" />
+          <refRes name="race_num_6_r90" />
+          <refRes name="race_num_7_r90" />
+          <refRes name="race_num_8_r90" />
+          <refRes name="race_num_9_r90" />
+          <key xsi:type="StepU16" frame="0" value="0" slopeType="Step" />
+          <key xsi:type="StepU16" frame="1" value="1" slopeType="Step" />
+          <key xsi:type="StepU16" frame="2" value="2" slopeType="Step" />
+          <key xsi:type="StepU16" frame="3" value="3" slopeType="Step" />
+          <key xsi:type="StepU16" frame="4" value="4" slopeType="Step" />
+          <key xsi:type="StepU16" frame="5" value="5" slopeType="Step" />
+          <key xsi:type="StepU16" frame="6" value="6" slopeType="Step" />
+          <key xsi:type="StepU16" frame="7" value="7" slopeType="Step" />
+          <key xsi:type="StepU16" frame="8" value="8" slopeType="Step" />
+          <key xsi:type="StepU16" frame="9" value="9" slopeType="Step" />
+        </animTexPatternTarget>
+      </animContent>
+      <animContent name="P_speed-01">
+        <animTexPatternTarget target="Image">
+          <refRes name="race_num_0_r90" />
+          <refRes name="race_num_1_r90" />
+          <refRes name="race_num_2_r90" />
+          <refRes name="race_num_3_r90" />
+          <refRes name="race_num_4_r90" />
+          <refRes name="race_num_5_r90" />
+          <refRes name="race_num_6_r90" />
+          <refRes name="race_num_7_r90" />
+          <refRes name="race_num_8_r90" />
+          <refRes name="race_num_9_r90" />
+          <key xsi:type="StepU16" frame="0" value="0" slopeType="Step" />
+          <key xsi:type="StepU16" frame="1" value="1" slopeType="Step" />
+          <key xsi:type="StepU16" frame="2" value="2" slopeType="Step" />
+          <key xsi:type="StepU16" frame="3" value="3" slopeType="Step" />
+          <key xsi:type="StepU16" frame="4" value="4" slopeType="Step" />
+          <key xsi:type="StepU16" frame="5" value="5" slopeType="Step" />
+          <key xsi:type="StepU16" frame="6" value="6" slopeType="Step" />
+          <key xsi:type="StepU16" frame="7" value="7" slopeType="Step" />
+          <key xsi:type="StepU16" frame="8" value="8" slopeType="Step" />
+          <key xsi:type="StepU16" frame="9" value="9" slopeType="Step" />
+        </animTexPatternTarget>
+      </animContent>
+      <animContent name="P_speed-02">
+        <animTexPatternTarget target="Image">
+          <refRes name="race_num_0_r90" />
+          <refRes name="race_num_1_r90" />
+          <refRes name="race_num_2_r90" />
+          <refRes name="race_num_3_r90" />
+          <refRes name="race_num_4_r90" />
+          <refRes name="race_num_5_r90" />
+          <refRes name="race_num_6_r90" />
+          <refRes name="race_num_7_r90" />
+          <refRes name="race_num_8_r90" />
+          <refRes name="race_num_9_r90" />
+          <key xsi:type="StepU16" frame="0" value="0" slopeType="Step" />
+          <key xsi:type="StepU16" frame="1" value="1" slopeType="Step" />
+          <key xsi:type="StepU16" frame="2" value="2" slopeType="Step" />
+          <key xsi:type="StepU16" frame="3" value="3" slopeType="Step" />
+          <key xsi:type="StepU16" frame="4" value="4" slopeType="Step" />
+          <key xsi:type="StepU16" frame="5" value="5" slopeType="Step" />
+          <key xsi:type="StepU16" frame="6" value="6" slopeType="Step" />
+          <key xsi:type="StepU16" frame="7" value="7" slopeType="Step" />
+          <key xsi:type="StepU16" frame="8" value="8" slopeType="Step" />
+          <key xsi:type="StepU16" frame="9" value="9" slopeType="Step" />
+        </animTexPatternTarget>
+      </animContent>
+      <animContent name="P_speed-03">
+        <animTexPatternTarget target="Image">
+          <refRes name="race_num_0_r90" />
+          <refRes name="race_num_1_r90" />
+          <refRes name="race_num_2_r90" />
+          <refRes name="race_num_3_r90" />
+          <refRes name="race_num_4_r90" />
+          <refRes name="race_num_5_r90" />
+          <refRes name="race_num_6_r90" />
+          <refRes name="race_num_7_r90" />
+          <refRes name="race_num_8_r90" />
+          <refRes name="race_num_9_r90" />
+          <key xsi:type="StepU16" frame="0" value="0" slopeType="Step" />
+          <key xsi:type="StepU16" frame="1" value="1" slopeType="Step" />
+          <key xsi:type="StepU16" frame="2" value="2" slopeType="Step" />
+          <key xsi:type="StepU16" frame="3" value="3" slopeType="Step" />
+          <key xsi:type="StepU16" frame="4" value="4" slopeType="Step" />
+          <key xsi:type="StepU16" frame="5" value="5" slopeType="Step" />
+          <key xsi:type="StepU16" frame="6" value="6" slopeType="Step" />
+          <key xsi:type="StepU16" frame="7" value="7" slopeType="Step" />
+          <key xsi:type="StepU16" frame="8" value="8" slopeType="Step" />
+          <key xsi:type="StepU16" frame="9" value="9" slopeType="Step" />
+        </animTexPatternTarget>
+      </animContent>
+    </lan>
+  </body>
+</nw4c_layout>
